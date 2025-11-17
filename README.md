@@ -86,7 +86,7 @@ To look for files that are not of certain type where $string is the type.
 Use mftecmd to analyze the $MFT
 $MFT is the path to MFT in your mounted evidence
 
-    mftecmd -f $MFT ~/analysedmft --csv
+    mftecmd -f $MFT --csv ~/analysedmft
 
 Open the output with your favorite csv viewer.
 
