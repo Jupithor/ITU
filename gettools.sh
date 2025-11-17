@@ -76,7 +76,6 @@ fi
 echo "Finalising..."
 export PATH="$PATH:/opt"
 echo "alias mftecmd='dotnet /opt/MFTEcmd/MFTECmd.dll'" >> ~/.bashrc
-
-. ~/.bashrc
+echo "alias mftecmd='dotnet /opt/MFTEcmd/MFTECmd.dll'" >> ~/.zshrc
 
 read -p "Installation complete. You may need to exit the terminal for the relevant aliases to work. Press any key to exit script..."
