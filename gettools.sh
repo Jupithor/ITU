@@ -71,7 +71,7 @@ if dotnet tool list ilspycmd &>/dev/null; then
 echo "ilspycmd  is installed";
 else
 echo "Installing ilspycmd"
-./.dotnet/dotnet tool install --global ilspycmd --version 9.1.0.7988
+~/.dotnet/dotnet tool install --global ilspycmd --version 9.1.0.7988
 fi
 echo "Finalising..."
 export PATH="$PATH:/opt"
